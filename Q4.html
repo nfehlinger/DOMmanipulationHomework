@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Question One</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<a href="Q1.html"><li>Question One</li></a>
+				<a href="Q2.html"><li>Question Two</li></a>
+				<a href="Q3.html"><li>Question Three</li></a>
+				<a href="Q4.html"><li>Question Four</li></a>
+			</ul>
+		</nav>
+	</header>
+	<div class="main">
+		<h1>Question Four</h1>
+		<h2>Create an HTML page with a form. The form should include inputs for a username, password, an h1 tag as well as a button. In a Javascript file, write code that does the following things when the button is pressed:</h2>
+		<p>
+			<ul>
+				<li>checks that the password is 12345678</li>
+				<li>checks that the username is less than 14 characters in length</li>
+				<li>if the info in the form is correct, have Javascript change the text in the h1 to say "Congrats on knowing your username and password!"
+				</li>
+				<li>if anything is wrong, send an alert message saying "Incorrect username or password"
+				</li>
+			</ul>
+		</p>
+		<div class="work">
+			<h1 id="message"></h1>
+			<form>
+				<input type="text" name="username" id="username" placeholder="username" />
+				<input type="password" name="password" id="password" placeholder="password" />
+				<input type="submit" name="submit" id="submit" />
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/Q4.js"></script>
+</body>
+</html>
